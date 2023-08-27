@@ -1,6 +1,6 @@
 " ===============================================================
-" OceanicNext
-" Author: Mike Hartington
+" Coolnight
+" Author: Arthur Brunborg
 " ===============================================================
 
 " {{{ Setup
@@ -10,7 +10,7 @@
        syntax reset
      endif
   endif
-  let g:colors_name="OceanicNext"
+  let g:colors_name="Coolnight"
 
 " Colors {{{
   let s:base00 = ['#1b2b34', '235']
@@ -33,7 +33,7 @@
   let s:none   = ['NONE',    'NONE']
 " }}}
 
-call oceanic_next#highlight(
+call coolnight#highlight(
   \ s:base00,
   \ s:base01,
   \ s:base02,
