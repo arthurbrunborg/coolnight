@@ -10,7 +10,7 @@
        syntax reset
      endif
   endif
-  let g:colors_name="Coolnight"
+  let g:colors_name="OceanicNext"
 
 " Colors {{{
   let s:background = ['0x020221', 'NONE']
@@ -33,7 +33,7 @@
   let s:bright_white   = ['0xe5e5e5', 'NONE']
 " }}}
 
-call coolnight#highlight(
+call oceanic_next#highlight(
   \ s:base00,
   \ s:base01,
   \ s:base02,
